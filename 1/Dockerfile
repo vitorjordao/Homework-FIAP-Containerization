@@ -1,4 +1,5 @@
-FROM ubi8/ubi:8.3
+# Our image was pushed on dockerhub as a vitorjordao/app-example:1.0.0
+FROM redhat/ubi8:latest
 
 LABEL org.opencontainers.image.authors="Vitor Jordão <vitorpeviano@gmail.com>"
 
